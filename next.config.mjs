@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',
   reactStrictMode: true,
   // three.js ships ESM examples; let Next transpile them for the browser bundle
   transpilePackages: ['three'],

@@ -1,0 +1,11 @@
+node_modules
+.next
+.next-dev
+.git
+.github
+.env.local
+.env.production
+data
+docs
+*.md
+!README.md
